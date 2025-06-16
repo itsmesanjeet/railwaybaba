@@ -1,8 +1,12 @@
+import HomeScreen from "./components/HomeScreen";
+import MoreFeatures from "./components/MoreFeatures";
+import Navigation from "./components/Navigation";
 
 export default function Home() {
   return (
     <>
-    <h1>Welcome to railwaybaba..</h1>
+      <HomeScreen />
+      <MoreFeatures />
     </>
   );
 }
